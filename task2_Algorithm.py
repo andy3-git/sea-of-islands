@@ -4,7 +4,7 @@ from collections import defaultdict, deque
 def bfs(source, sink, parent, capacity, adj):
     "Creating Variables"
     visited = set()
-    priorityQueue= deque([source])
+    queue = deque([source])
     visited.add(source)
     
     while queue:
